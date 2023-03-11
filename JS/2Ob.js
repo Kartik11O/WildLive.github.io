@@ -50,13 +50,13 @@ hiddenElement2.forEach((el) => observe2.observe(el))
 
 
 // let videoP = document.querySelectorAll(".videoF")
-let videoP = document.getElementById("hidden")
+// let videoP = document.getElementById("hidden")
 
-const videoOB = IntersectionObserver((entries) => { new
-    entries.forEach((entry) => {
-        if(entry.isIntersecting){
-            videoP.play()
-        }
-    })
-})
+// const videoOB = IntersectionObserver((entries) => { new
+//     entries.forEach((entry) => {
+//         if(entry.isIntersecting){
+//             videoP.play()
+//         }
+//     })
+// })
 

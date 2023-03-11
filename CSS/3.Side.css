@@ -28,11 +28,12 @@
 }
 
 #Level h1{
-       color: #bbb;
+       color: #fff;
     font-size: 0.9rem;
     transition: 0.3s;
     cursor: pointer;
 }
+
 
 #Level h1:hover{
     color: var(--MatteB);

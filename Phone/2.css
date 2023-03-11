@@ -1,7 +1,4 @@
-#Mid{
-    /* width: 120vw; */
-    width: 138vw;
-}
+
 .container_F1{
     display: flex;
     justify-content: center;
@@ -10,9 +7,6 @@
     align-content: center;
 }
 
-#Image1{
-    width: 120vw;
-}
 
 #Side{
     width: 6vw;
@@ -36,9 +30,9 @@
     height: 10vh;
 }
 .cirleM{
-    width: 21px;
-    height: 21px;
-    line-height: 20px;
+    width: 6vw;
+    height: 3.3vh;
+    line-height: 2.6rem;
 }
 .contentF3 {
     width: 100%;
@@ -49,10 +43,10 @@
 }
 .contentF2 {
     width: 100%;
-    /* display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; */
+    flex-direction: column;
 }
 .contentF1 {
     width: 100%;
@@ -71,4 +65,22 @@
 
 .content_Map h2 {
     width: 87vw;
+}
+
+Nav{
+    width: 88.9vw;
+}
+#Nav_2{
+    width: 37%;
+}
+#Nav_2{
+    width: 51%;
+}
+
+#Mid{
+    width:91vw;
+}
+
+#Container_Mid{
+    width: 79%;
 }
