@@ -5,6 +5,7 @@ body {
     background-color: black;
     animation: B 1s both;
     overflow-x: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 @keyframes B {
     0%{
