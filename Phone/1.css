@@ -1,0 +1,23 @@
+html{
+    font-size: 50%;
+}
+
+.contentF2 p {
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+.content_Map h2 {
+    font-size: 1.4rem;
+    width: 81%;
+}
+.content_Map span {
+    font-size: 1.3rem;
+}
+.cirleM {
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+.Map h3 {
+    font-size: 1.9rem;  
+}

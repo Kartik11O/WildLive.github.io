@@ -1,0 +1,106 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    animation: B 1s both;
+    overflow-x: hidden;
+}
+@keyframes B {
+    0%{
+        opacity: 0;
+    }
+    
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 13px;
+}
+
+
+
+#Nav {
+    margin-left: 5rem;
+}
+
+Nav {
+    position: relative;
+    width: 92.9vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Nav_1 {
+    font-family: var(--Font);
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 0.4rem;
+    color: #fff;
+}
+
+#Nav-content-1 {
+    width: 64%;
+    height: 36%;
+    text-align: center;
+}
+
+#Nav_1 span {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+#Nav_1 #color-w {
+    color: #FF9500;
+}
+
+
+
+#Nav_2 {
+    width: 28%;
+    height: 90%;
+    font-family: var(--Font);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#Nav_2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#searchBar{
+    position: absolute;
+    top: 4rem;
+    right: 1rem;
+    width: 23vw;
+    height: 5vh;
+    border-radius: 2rem 0.8rem 2rem 0rem;
+    border: none;
+    background-color: #bbb;
+    padding-left: 3rem;
+    outline: none;
+}
+
+label{
+    position: absolute;
+    bottom: 0rem;
+    right: 20.8rem;
+}
+

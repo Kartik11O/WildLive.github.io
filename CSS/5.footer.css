@@ -1,0 +1,175 @@
+#F1{
+    position: relative;
+    width: 99.8vw;
+    height: fit-content;
+    font-family: 'Golos Text', sans-serif !important;
+    background-color: #fff;
+
+}
+#F2{
+    position: relative;
+    display: none;
+    width: 99.8vw;
+    height: fit-content;
+    font-family: 'Golos Text', sans-serif !important;
+
+}
+
+.container_F1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* STARTING OF F1 */
+
+.contentF1{
+    width: 34%;
+    height: 100%;
+    background-color: #fff;
+}
+.Map{
+    position: relative;
+    width: 100%;
+    height: 44vh;
+    
+}
+.HeadlineM{
+    font-family: var(--PARA);
+    font-weight: 400;
+    color: var(--OR);
+    margin: auto;
+    width: 77%;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+.boxCir{
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    gap: 0.3rem;
+}
+.cirleM{
+    width: 6.4%;
+    height: 4vh;
+    margin-top: 0.5rem;
+    text-align: center;
+    line-height: 1.6rem;
+    border-radius: 20rem;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: var(--PARA);
+    border: 1px solid var(--MatteB);
+}
+
+#push{
+    margin-left: 3.1rem;
+}
+
+.Map h3{
+    font-family: var(--PARA);
+    color: var(--OR);
+    font-size: 1.5rem;
+    margin: auto;
+    width: 72%;
+    margin-top: 2rem;
+}
+.Map img{
+    position: absolute;
+    width: 28vw;
+    height: 40vh;
+    object-fit: cover;
+}
+.content_Map{
+    width: 100%;
+    height: 64%;
+}
+.content_Map span{
+    color: var(--OR);
+    margin-left: 3rem;
+}
+#SP{
+margin-top: 4rem;
+}
+
+
+/* STARTING OF A F2 */
+
+.content_Map h2{
+    margin: auto;
+    width: 79%;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.contentF2{
+    width: 50%;
+    height: 100%;
+    font-family: var(--PARA);;
+    background-color: #fff;
+}
+.contentF2 h1{
+    margin: auto;
+    width: 84%;
+    margin-top: 2rem;
+    /* color: var(--OR); */
+}
+.contentF2 p {
+    width: 84%;
+    font-size: 1.3rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-weight: 300;
+}
+
+
+/* STARTING OF A F3 */
+
+.contentF3{
+    width: 34%;
+    height: 100%;
+    background-color: #fff;
+}
+.videoF{
+    width: 95%;
+    height: 53vh;
+    margin-left: 0.7rem;
+    object-fit: contain;
+}
+.Pics{
+    width: 100%;
+    height: 53vh;
+    background-image: url(https://images.unsplash.com/photo-1472525827684-e2203602f702?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=864&q=80);
+    background-repeat: no-repeat;
+    background-position: 1rem 2.5rem;
+    background-size: 92%;
+    /* border: 2px solid; */
+}
+
+.Pics:nth-child(2){
+    background-image: url(https://images.unsplash.com/photo-1481695875655-fada44bb8e75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+}
+.Pics:nth-child(3){
+    background-image: url(https://images.unsplash.com/photo-1659519613854-0604d4623af6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80);
+}
+
+.Pics2{
+    width: 100%;
+    height: 33%;
+    background-image: url(https://images.unsplash.com/photo-1620137631167-735b6e62dca0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+    background-repeat: no-repeat;
+    background-position: 1rem 2.5rem;
+    background-size: 92%;
+    /* border: 2px solid; */
+}
+
+.Pics2:nth-child(2){
+    background-image: url(https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
+}
+.Pics2:nth-child(3){
+    background-image: url(https://images.unsplash.com/photo-1620576537654-089e6620b4ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+}

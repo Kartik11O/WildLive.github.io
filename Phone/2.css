@@ -1,0 +1,67 @@
+html{
+    font-size: 50%;
+    margin-left: 0.8rem;
+}
+
+#Nav_2 {
+    width: 66%;
+    height: 80%;
+}
+
+#Container_Mid{
+    width: 97%;
+    height: 38vh;
+}
+
+#Headline {
+    width: 56%;
+    height: 3vh;
+}
+
+#Content_m {
+    font-family: var(--Font);
+    height: 26vh;
+    width: 86vw;
+}
+#Content_m h1{
+    font-size: 8rem;
+}
+#Content_m p{
+    font-size: 1.6rem;
+}
+
+#Side{
+    width: 5vw;
+}
+
+#btn{
+    width: 59%;
+}
+#btn h2 {
+    font-size: 2.0rem;
+}
+
+#F1{
+    height: 256vh;
+}
+.container_F1{
+   flex-direction:column;
+}
+.boxCir {
+    height: 5vh;
+    border: 2px solid;
+}
+.contentF1{
+    width: 100%;
+    height: 55%;
+}
+.contentF2{
+    width: 100%;
+}
+.contentF3{
+    width: 100%;
+}
+.contentF2 p {
+    font-size: 2rem;
+    font-weight: 500;
+}
