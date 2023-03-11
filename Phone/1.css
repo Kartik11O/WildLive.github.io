@@ -11,6 +11,10 @@ html{
     font-size: 1.4rem;
     width: 81%;
 }
+#Content_m{
+    width: 74%;
+    height: 43vh;
+}
 .content_Map span {
     font-size: 1.3rem;
 }
@@ -20,4 +24,22 @@ html{
 }
 .Map h3 {
     font-size: 1.9rem;  
+}
+
+#C{
+    height: 6vh;
+}
+
+.cirle {
+    width: 1.9vw;
+    height: 3.1vh;
+    border-radius: 20rem;
+    background-color: transparent;
+    border: 1px solid #bbb;
+    color: #bbb;
+    text-align: center;
+    line-height: 1.3rem;
+    transition: 0.3s;
+    font-size: 0.8rem;
+    cursor: pointer;
 }
