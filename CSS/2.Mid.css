@@ -11,7 +11,7 @@
 
 #Container_Mid{
     width: 60%;
-    height: 60vh;
+    max-height: 60vh;
     display: flex;
     flex-direction: column;
     margin-left: 0.6rem;

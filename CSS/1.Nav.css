@@ -71,7 +71,8 @@ Nav {
 
 
 #Nav_2 {
-    width: 28%;
+    max-width: 100vw;
+    min-width: 40%;
     height: 90%;
     font-family: var(--Font);
     font-weight: 600;

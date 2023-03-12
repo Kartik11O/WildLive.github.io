@@ -6,10 +6,16 @@
     flex-wrap: wrap;
     align-content: center;
 }
-
+#Container_blow{
+     flex-flow: column;
+}
 
 #Side{
     width: 6vw;
+    background-color: #000;
+}
+#Icon{
+    line-height: 8.1rem;
 }
 #Content_m{
     width: 100%;
@@ -29,9 +35,9 @@
     height: 10vh;
 }
 .cirleM{
-    width: 6vw;
-    height: 3.3vh;
-    line-height: 2.6rem;
+    max-width: 22px;
+    max-height: 21px;
+    line-height: 19px;
 }
 .contentF3 {
     width: 100%;
@@ -69,11 +75,9 @@
 Nav{
     width: 88.9vw;
 }
+
 #Nav_2{
-    width: 37%;
-}
-#Nav_2{
-    width: 51%;
+    min-width: 51%;
 }
 
 #Mid{
@@ -82,4 +86,36 @@ Nav{
 
 #Container_Mid{
     width: 79%;
+}
+
+#box1{
+    min-width: 40vw;
+}
+#box2{
+    min-width: 40vw;
+}
+
+#box_2_2{
+    min-width: 39.5vw;
+}
+#box_2_2::before {
+    width: 43%;
+    height: 15%;
+}
+.cirle{
+    width: 13px;
+    height: 13px;
+    border-radius: 20rem;
+    background-color: transparent;
+    border: 1px solid #bbb;
+    color: #bbb;
+    text-align: center;
+    line-height: 14px;
+    transition: 0.3s;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+#C{
+    min-width: 39vw;
 }
