@@ -3,7 +3,7 @@
     top: 0;
     width: 3vw;
     height: 117vh;
-    background-color: var(--OR);
+    background-color: #000;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
