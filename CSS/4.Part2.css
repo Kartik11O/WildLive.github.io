@@ -60,23 +60,17 @@
     0%{
         opacity: 0;
         transform: translateY(-40px);
-        filter: blur(5px);
-              
+        filter: blur(5px);         
     }
-    
-    
-
-    
-    
-    
 }
-.d{
+
+.Vis_S{
     visibility: hidden;
 }
+
 .H2{
- 
+    visibility: visible !important;
     animation: HH 0.8s both;
-    visibility: visible!important;
 }
 
 @keyframes HH {
@@ -101,4 +95,3 @@
     }
     
 }
-
