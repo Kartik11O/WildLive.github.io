@@ -70,10 +70,13 @@
     
     
 }
-
+.d{
+    visibility: hidden;
+}
 .H2{
  
     animation: HH 0.8s both;
+    visibility: visible!important;
 }
 
 @keyframes HH {
@@ -98,3 +101,4 @@
     }
     
 }
+
