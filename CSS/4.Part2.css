@@ -85,6 +85,7 @@
 }
 
 .F_Show{
+    visibility: visible !important;
     animation: F1 1s both;
 }
 
