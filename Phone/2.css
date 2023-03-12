@@ -1,7 +1,4 @@
 
-html{
-    font-size: 50%;
-}
 .container_F1{
     display: flex;
     justify-content: center;
@@ -9,17 +6,12 @@ html{
     flex-wrap: wrap;
     align-content: center;
 }
-.contentF2 h1{
-    font-weight: 400;
-}
-.contentF2 p {
-    font-weight: 200;
-}
+
+
 #Side{
     width: 6vw;
 }
 #Content_m{
-    height: 26vh;
     width: 100%;
 }
 

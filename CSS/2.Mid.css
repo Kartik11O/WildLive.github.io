@@ -19,7 +19,7 @@
     margin-top: 1.5rem;
 }
 #Headline{
-    width: 100%;
+    width: 30%;
     height: 8vh;
     font-family: var(--Font);
 }
@@ -32,8 +32,8 @@
 
 #Content_m{
     font-family: var(--Font);
-    width: 59%;
-    height: 43vh;
+    width: 62%;
+    max-height: 43vh;
 }
 #Content_m h1{
     font-size: 6rem;
